@@ -1,0 +1,65 @@
+section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100px;
+    padding: 50px 20vw;
+}
+.red {
+    background: rgb(221, 32, 32);
+}
+.midnight-blue {
+    background: #C62368;
+}
+.blue {
+    background: #401880;
+}
+.black {
+    background: #141418;
+}
+.spacer {
+    aspect-ratio: 960/540;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.layer1 {
+    background-image: url(./assets/layer1.svg);
+}
+.layer2 {
+    background-image: url(./assets/layer2.svg);
+}
+.rcorners1 {
+    border-radius: 25px;
+    border: 2px solid #FA7268;
+    background: #001220;
+    padding: 20px;
+    width: 1750px;
+    height: 750px;
+    color: aliceblue;
+}
+.rcorners2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    width: 1750px;
+    height: 250px;
+    color: aliceblue;
+}
+.niilobutton {
+    background-color: #FA7268;
+    border: 2px solid #C62368;
+    color: aliceblue;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-weight: 600;
+}
