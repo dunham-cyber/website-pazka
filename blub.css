@@ -36,24 +36,54 @@ section {
     border: 2px solid #FA7268;
     background: #001220;
     padding: 20px;
-    width: 1750px;
-    height: 750px;
+    width: 800px;
+    height: 470px;
     color: aliceblue;
+    position: absolute;
+    top: 750px;
+    left: 95px;
+}
+.rcorners5 {
+    border-radius: 25px;
+    border: 2px solid #FA7268;
+    background: #001220;
+    padding: 20px;
+    width: 800px;
+    height: 470px;
+    color: aliceblue;
+    position: absolute;
+    top: 750px;
+    left: 1035px;
+}
+.rcorners6 {
+    border-radius: 25px;
+    border: 2px solid #FA7268;
+    background: #001220;
+    padding: 20px;
+    width: 1100px;
+    height: 285px;
+    color: aliceblue;
+    position: absolute;
+    top: 400px;
+    left: 735px;
 }
 .rcorners2 {
     display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding: 20px;
-    width: 1750px;
-    height: 250px;
+    flex-direction: row;
+    padding-left: 90px;
+    width: 350px;
+    height: 110px;
     color: aliceblue;
+    top: 100px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 35%;
 }
 .niilobutton {
     background-color: #FA7268;
     border: 2px solid #C62368;
     color: aliceblue;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -62,4 +92,55 @@ section {
     cursor: pointer;
     border-radius: 8px;
     font-weight: 600;
+    transition: 100ms ease;
+}
+.niilobutton:hover {
+    background-color: #db665e;
+    color: rgb(209, 217, 224);
+}
+.rcorners3 {
+    display: flex;
+    flex-direction: row;
+    padding-left: 100px;
+    width: 570px;
+    height: 110px;
+    color: aliceblue;
+    top: 10px;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 60%;
+    position: fixed;
+    z-index: 1;
+}
+.rcorners4 {
+    display: flex;
+    border-radius: 8px;
+    border: 2px solid #FA7268;
+    background: #001220;
+    padding: 15px;
+    width: 510px;
+    height: 30px;
+    color: aliceblue;
+    position: fixed;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 65%;
+    justify-content: space-between;
+    z-index: 1;
+    top: 20px;
+}
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 320;
+    width: 180;
+}
+.videoWrapper iframe {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    top: 300px;
+    left: 25px;
+    width: 30%;
+    height: 30%;
 }
